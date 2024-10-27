@@ -15,7 +15,7 @@ OWNER_ID = 8143679178  # Owner's Telegram ID
 bot = telebot.TeleBot(TOKEN)
 
 # Define the API endpoint and static parameters
-url = "https://mrdaxx.com/sk/cvv/gate/api.php"
+url = "https://mrdaxx.com/api.php"
 
 # Event to control the stopping of the card check process
 stop_event = Event()
